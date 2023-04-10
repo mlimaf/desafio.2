@@ -5,19 +5,19 @@ margin: 0;
 padding: 0;
 }
 
-body{ font-family: 'Karla', 
+body
+{ font-family: 'Karla', 
     sans-serif;
 font-size: 16px;
 min-height: 100vh;
-display: flex;
+display: flexbox;
 align-items: center;
 background:hsl(204, 43%, 93%);
 }
 
 .container{
-
     max-width: 960px;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .wrapper{
@@ -27,6 +27,7 @@ overflow: hidden;
 background-color: #fff;
 grid-template-columns: 50% 50%;
 grid-template-areas: "a a" "b c";
+margin: 2rem 1rem;
 }
 
 .box{
@@ -51,15 +52,15 @@ h1{color: hsl(179,62%,43%);
 font-size: 26px;
 padding-bottom: 20px;}
 
-h3
-{color: hsl(71, 73 , 74%);
+h3{color: hsl(71, 73%, 74%);
 padding-bottom: 12px;
 }
 
-.join p{
-    color: hsl(218, 22, 67%);
+.join p {
+    color: hsl(218, 22%, 67%);
     line-height: 1.4;
 }
+
 
 h2{
     color: #fff;
@@ -91,7 +92,7 @@ h5 span.price{
 .sub a {
     display: block;
     text-align: center;
-    background-color: hsl(71, 73 , 74%);
+    background-color: hsl(71, 73% , 74%);
     text-decoration: none;
     color: #fff;
     font-weight: 800;
