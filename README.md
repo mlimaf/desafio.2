@@ -1,2 +1,8 @@
 # desafio2
-Atualizando arquivos do repositorio do github
+
+Grade de preço
+
+Utilizando desafio do front mentor
+
+linguagem html e css 
+
